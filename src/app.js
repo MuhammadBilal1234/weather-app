@@ -6,6 +6,8 @@ const hbs = require("hbs");
 
 const app = express();
 
+console.log("asd");
+
 const publicpathDirectory = path.join(__dirname, "../public");
 const viewpath = path.join(__dirname, "../templates/views");
 const partialpath = path.join(__dirname, "../templates/partial");
